@@ -15,8 +15,9 @@ module.exports = (sequelize, DataTypes) => {
   };
   Joke.init({
     idJoke: DataTypes.INTEGER,
-    content: DataTypes.STRING,
-    count: DataTypes.INTEGER
+    content: DataTypes.TEXT('long'),
+    countLike: DataTypes.INTEGER,
+    countDisLike: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Joke',

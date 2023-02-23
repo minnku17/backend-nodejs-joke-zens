@@ -12,9 +12,12 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       content: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT('long')
       },
-      count: {
+      countLike: {
+        type: Sequelize.INTEGER
+      },
+      countDisLike: {
         type: Sequelize.INTEGER
       },
       createdAt: {
