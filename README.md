@@ -20,23 +20,4 @@
   ```
 In the project directory, you can run:
 
-### `Giao diện frontend`
-
- <img src="images/Layout test.jpg" alt="Layout Test" />
- 
-### `Save cookie track user`
-
- <img src="images/save cookie.jpg" alt="Layout Test" />
- 
- ### `Call api save vote`
- ```
-  Đôi lúc sẽ gặp trường hợp call API không được, do em deploy lên render không hỗ trợ chạy nền, đôi lúc em treo sẽ bị stop server ạ.
-  Nếu trường hợp lỗi không call api xảy ra em có video sẵn video demo Link bên dưới ạ.
- ```
-  <a href="https://drive.google.com/file/d/1rqNfY-1apH1rhnR8hvA1ns9kr3Eew7cM/view?usp=sharing">Video demo website</a></br>
- <img src="images/callApiSaveVote.jpg" alt="Layout Test" />
-
-### `Database save vote`
-
- <img src="images/database.jpg" alt="Layout Test" />
 
